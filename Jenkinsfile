@@ -19,7 +19,7 @@
 				    sh 'mvn clean install -DskipTests'
 			    }
 			}
-	
+		}
 		stage ('test') {
 			steps {
 			    dir ('demo1'){
@@ -34,6 +34,6 @@
 				}
 			}
 
-		
+		}
 	}
 }
